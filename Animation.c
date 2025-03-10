@@ -5,7 +5,7 @@
 int main() {
     //info 
     float angle;
-
+    
     //elements
     char ball = '*';
     char ground = '|';
@@ -21,7 +21,7 @@ int main() {
     int height;
 
     //user input
-    printf("angle:");
+    printf("Enter projectile angle:");
     scanf("%f", &angle);
 
     while (angle < 0 || angle > 90) {
