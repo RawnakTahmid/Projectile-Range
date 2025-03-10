@@ -2,6 +2,10 @@
 #include<math.h>
 #include<windows.h>
 
+#ifndef M_PI
+    #define M_PI 3.14159265358979323846
+#endif
+
 int main() {
     //info 
     float angle;
@@ -31,7 +35,7 @@ int main() {
         scanf("%f", &angle);
     }
 
-    
+
     //calculating different angles
     float angle_radians = angle * M_PI / 180;
     float multiplyer = tan(angle_radians);
