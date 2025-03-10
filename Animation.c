@@ -10,12 +10,14 @@ int main() {
     char ball = '*';
     char ground = '|';
 
+
     //graph reaching top
     float x;         
     float y;
     int spaces;
     float radian=360;
     int peak_height;
+
 
     //calculating the area
     int height;
@@ -29,6 +31,7 @@ int main() {
         scanf("%f", &angle);
     }
 
+    
     //calculating different angles
     float angle_radians = angle * M_PI / 180;
     float multiplyer = tan(angle_radians);
